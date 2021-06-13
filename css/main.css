@@ -1,0 +1,265 @@
+ /***** BASE STYLES *****/
+
+ body {
+
+font-family: 'Montserrat', sans-serif;
+
+color: black;
+
+ }
+
+ span {
+
+color: green;
+
+
+ }
+
+/***** GRID *****/
+.container {
+     
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    
+}
+
+.full-width{
+
+    width: 1200px;
+
+    line-height: 40px;
+
+}
+
+.half-width {
+
+width: 600px;
+
+float: left;
+
+
+}
+
+
+
+ /****** HEADER ******/
+
+ header {
+
+padding-right: 10px;
+
+background-position: center;
+
+background-size: cover;
+
+ }
+
+
+ header h1 {
+
+padding: 10px 0px 0px 0px;
+
+font-size: 30px;
+
+font-weight: default;
+
+font-family: 'Montserrat', sans-serif; 
+
+ }
+
+ nav {
+
+    padding: 15px 0px;
+
+ }
+
+
+ nav ul li {
+    display: inline-block;
+
+    padding: 10px;
+    
+    line-height: 5px;
+}
+
+nav ul li a {
+ 
+    
+    text-transform: capitalize;
+
+    text-decoration: none;
+
+    font-size: 15px;
+
+    line-height: 23px;
+
+    color: green;
+
+}
+
+header h2 {
+
+font-family: 'Montserrat', sans-serif; 
+
+font-size: 80px;
+
+width: 40px;
+ 
+
+}
+
+/***** ABOUT ******/
+#about .full-width {
+       
+    padding: 30px 0;
+
+}
+
+#top h2 {
+
+    color: green;
+
+}
+
+
+#about h2 {
+
+font-family: 'Montserrat', sans-serif; 
+
+padding-left: 10px;
+
+}
+
+#about p {
+
+font-family: 'Montserrat', sans-serif; 
+
+padding-left: 10px;
+
+font-size: 21px 
+
+
+}
+
+/***** BOTTOM SECTION *****/
+
+
+.section-one, .section-two, .section-three {
+
+width: 380px;
+
+height: auto;
+
+float: left;
+
+border-top: 1px solid #eee;
+
+
+
+
+text-align: center;
+
+}
+
+.section-one h3 {
+
+padding: 20px;
+
+}
+
+.section-two h3, .section-three h3 {
+
+padding: 20px 20px;
+
+padding-left: 20px;
+}
+
+.section-two {
+
+border-left: 1px solid #eee;
+
+border-right: 1px solid #eee;
+
+
+
+}
+
+#specials {
+
+list-style: none;
+
+padding: 10px;
+
+}
+
+#specials li {
+
+padding: 7px 10px;
+
+color: #77a466;
+
+}
+
+#reviews {
+
+color: black;
+
+font-size: 14px;
+
+line-height: 18px;
+
+padding: 30px 20px;
+
+}
+
+#contact {
+
+font-size: 16px;
+
+line-height: 24px;
+
+padding: 30px 20px;
+
+}
+
+/***** FOOTER SECTION *****/
+
+footer {
+
+text-align: center;
+
+font-size: 15px;
+
+border-top: 1px solid #eee;
+
+clear: left;
+
+}
+
+#fresh {
+
+    font-family: 'Galada', cursive;
+
+}
+
+/***** ABOUT PAGE *****/
+
+.about-img{
+
+float: left;
+
+padding:5px;
+
+width:50%;
+
+box-sizing: border-box;
+
+}
+
+.about-img img{
+
+width: 100%;
+
+
+}
